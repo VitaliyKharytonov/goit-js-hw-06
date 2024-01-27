@@ -9,7 +9,6 @@ let counterValue = 0;
 decrementBtn.addEventListener("click", () => {
   counterValue -= 1;
   spanEl.textContent = counterValue;
-  console.log(spanEl.textContent);
 });
 
 incrementBtn.addEventListener("click", () => {
